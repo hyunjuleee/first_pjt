@@ -25,4 +25,8 @@ urlpatterns = [
     path('hello/', views.hello),
     path('lunch/', views.lunch),
     path('lotto/', views.lotto),
+    path('username/<name>/', views.username),
+    path('cube/<int:number>/', views.cube), # 숫자인 걸 미리 알려주기
+    path('posts/', views.posts),
+
 ]
