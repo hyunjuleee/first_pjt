@@ -28,5 +28,6 @@ urlpatterns = [
     path('username/<name>/', views.username),
     path('cube/<int:number>/', views.cube), # 숫자인 걸 미리 알려주기
     path('posts/', views.posts),
-
+    path('ping/', views.ping),
+    path('pong/', views.pong),
 ]
